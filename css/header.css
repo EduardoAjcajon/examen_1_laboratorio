@@ -1,0 +1,24 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+}
+.hora{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+}
+.señal{
+    margin: auto;
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+.internet{
+    margin: auto;
+}
+.batria{
+    margin: auto;
+}

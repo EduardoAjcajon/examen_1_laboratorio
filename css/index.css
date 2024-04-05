@@ -1,0 +1,148 @@
+.centro{
+    display: grid;
+    grid-template-rows: 5rem 5rem 0.2rem 1fr;
+}
+.parte_ariba{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.flecha{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+}
+.titulo{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    margin: auto;
+}
+.caja_flecha{
+    grid-column-start: 11;
+    grid-column-end: 13;
+    margin: auto;
+}
+.linea{
+    width: 95%;
+    border: 1px solid rgb(190,190,190);
+    margin: auto;
+}
+.opciones{
+    width: 35rem;
+    height: 3.5rem;
+    background-color: rgb(235,240,240);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 11rem 0.5rem 11rem 0.5rem 11.5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.op1{
+    width: 95%;
+    height: 85%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.op3{
+    width: 95%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: rgb(159,159,164);
+}
+.op2{
+    width: 95%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: rgb(159,159,164);
+}.linea2{
+    width: 0;
+    height: 45%;
+    border: 1px solid rgb(159,159,164);
+    margin: auto;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 15rem 1fr 1fr 0.2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+.cuadro1{
+    margin: auto;
+    width: 35rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(157,157,162);
+    background-color: rgb(235,240,240);
+    border: none;
+}
+.tel{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    grid-template-columns: 5rem 30rem;
+}
+.region{
+    height: 80%;
+    display: flex;
+    color: rgb(157,157,162);
+    background-color: rgb(235,240,240);
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 0.9rem;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.region p{
+    margin: auto;
+}
+.numero_tel{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    color: rgb(157,157,162);
+    background-color: rgb(235,240,240);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+.contra{
+    width: 98%;
+    margin: auto;
+    color: rgb(157,157,162);
+    background-color: rgb(235,240,240);
+    padding: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(10, 1fr);
+    border-radius: 1rem;   
+    border: none;
+}
+.visible{
+    grid-column-start: 9;
+    grid-column-end: 11;
+    margin: auto;
+}
